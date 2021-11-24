@@ -1,16 +1,422 @@
 PODS:
+  - BDH5WebView/Core (0.1.2):
+    - BDWebCoreToB
+    - BDWebKitToB/BlankDetect (>= 0.0.1)
+    - BDWebKitToB/Cookie (>= 0.0.1)
+    - BDWebKitToB/Core (>= 0.0.1)
+    - BDWebKitToB/CrashFix (>= 0.0.1)
+    - BDWebKitToB/Interceptor (>= 0.0.1)
+    - BDWebKitToB/Precreator (>= 0.0.1)
+    - BDWebKitToB/SSL (>= 0.0.1)
+    - BDWebKitToB/TTNet (>= 0.0.1)
+    - OneKit/ByteDanceKit/Foundation
+    - RSSwizzle
+    - TTNetworkManager
+  - BDHotfix (1.0.6):
+    - BDHotfix/Core (= 1.0.6)
+    - BDHotfix/OneKit (= 1.0.6)
+  - BDHotfix/Core (1.0.6):
+    - OneKit/MARS/Auth
+    - SSZipArchive
+  - BDHotfix/OneKit (1.0.6):
+    - BDHotfix/Core
+    - OneKit/Service
+    - OneKit/StartUp
+  - BDPreloadSDKToB/Core (0.1.2):
+    - OneKit/Reachability
+  - BDPreloadSDKToB/WebView (0.1.2):
+    - BDPreloadSDKToB/Core
+    - YYCache
+  - BDWebCoreToB (0.1.1):
+    - BDWebCoreToB/Core (= 0.1.1)
+  - BDWebCoreToB/Core (0.1.1)
+  - BDWebKitToB/BlankDetect (0.1.8):
+    - BDWebCoreToB
+    - BDWebKitToB/Core
+  - BDWebKitToB/Cookie (0.1.8):
+    - BDWebCoreToB
+    - BDWebKitToB/Core
+  - BDWebKitToB/Core (0.1.8):
+    - BDWebCoreToB
+    - OneKit/BaseKit
+    - OneKit/ByteDanceKit/Foundation
+  - BDWebKitToB/CrashFix (0.1.8):
+    - BDWebCoreToB
+    - BDWebKitToB/Core
+  - BDWebKitToB/Falcon (0.1.8):
+    - BDWebCoreToB
+    - BDWebKitToB/Core
+    - BDWebKitToB/Falcon/WebP (= 0.1.8)
+    - BDWebKitToB/Interceptor
+    - mars_gecko_ios/Core
+  - BDWebKitToB/Falcon/WebP (0.1.8):
+    - BDWebCoreToB
+    - BDWebKitToB/Core
+    - BDWebKitToB/Interceptor
+    - libwebp
+    - mars_gecko_ios/Core
+  - BDWebKitToB/Interceptor (0.1.8):
+    - BDWebCoreToB
+  - BDWebKitToB/Offline (0.1.8):
+    - BDPreloadSDKToB/WebView
+    - BDWebCoreToB
+    - BDWebKitToB/Core
+    - BDWebKitToB/Falcon
+    - BDWebKitToB/Resource
+  - BDWebKitToB/Precreator (0.1.8):
+    - BDWebCoreToB
+  - BDWebKitToB/Resource (0.1.8):
+    - BDWebCoreToB
+    - mars_gecko_ios/Core
+  - BDWebKitToB/SSL (0.1.8):
+    - BDWebCoreToB
+    - BDWebKitToB/Core
+    - BDWebKitToB/CrashFix
+    - OneKit/ByteDanceKit/UIKit
+  - BDWebKitToB/TTNet (0.1.8):
+    - BDWebCoreToB
+    - BDWebKitToB/Core
+    - BDWebKitToB/Interceptor
+    - BDWebKitToB/Precreator
+    - BDWebKitToB/SSL
+    - TTNetworkManager
+  - BDXBridgeKitToB (1.0.11):
+    - BDXBridgeKitToB/Containers/Web (= 1.0.11)
+    - BDXBridgeKitToB/Core (= 1.0.11)
+    - BDXBridgeKitToB/Engines/TTBridgeUnifyAdapter/WebEngine (= 1.0.11)
+    - BDXBridgeKitToB/Methods (= 1.0.11)
+  - BDXBridgeKitToB/Containers/Web (1.0.11):
+    - BDXBridgeKitToB/Core
+  - BDXBridgeKitToB/Core (1.0.11):
+    - OneKit/BDMantle (>= 1.1.0-rc.7)
+  - BDXBridgeKitToB/Engines/TTBridgeUnifyAdapter/CoreEngine (1.0.11):
+    - BDXBridgeKitToB/Core
+    - OKJSBridgeToB (>= 1.0.5)
+  - BDXBridgeKitToB/Engines/TTBridgeUnifyAdapter/WebEngine (1.0.11):
+    - BDXBridgeKitToB/Core
+    - BDXBridgeKitToB/Engines/TTBridgeUnifyAdapter/CoreEngine
+    - OKJSBridgeToB (>= 1.0.5)
+  - BDXBridgeKitToB/Methods (1.0.11):
+    - BDXBridgeKitToB/Core
+    - BDXBridgeKitToB/Methods/Account (= 1.0.11)
+    - BDXBridgeKitToB/Methods/Development (= 1.0.11)
+    - BDXBridgeKitToB/Methods/Event (= 1.0.11)
+    - BDXBridgeKitToB/Methods/Framework (= 1.0.11)
+    - BDXBridgeKitToB/Methods/Info (= 1.0.11)
+    - BDXBridgeKitToB/Methods/Log (= 1.0.11)
+    - BDXBridgeKitToB/Methods/Media (= 1.0.11)
+    - BDXBridgeKitToB/Methods/Network (= 1.0.11)
+    - BDXBridgeKitToB/Methods/Open (= 1.0.11)
+    - BDXBridgeKitToB/Methods/Route (= 1.0.11)
+    - BDXBridgeKitToB/Methods/ScreenShot (= 1.0.11)
+    - BDXBridgeKitToB/Methods/Storage (= 1.0.11)
+    - BDXBridgeKitToB/Methods/System (= 1.0.11)
+    - BDXBridgeKitToB/Methods/UI (= 1.0.11)
+  - BDXBridgeKitToB/Methods/Account (1.0.11):
+    - BDXBridgeKitToB/Core
+  - BDXBridgeKitToB/Methods/Development (1.0.11):
+    - BDXBridgeKitToB/Core
+  - BDXBridgeKitToB/Methods/Event (1.0.11):
+    - BDXBridgeKitToB/Core
+  - BDXBridgeKitToB/Methods/Framework (1.0.11):
+    - BDXBridgeKitToB/Core
+  - BDXBridgeKitToB/Methods/Info (1.0.11):
+    - BDXBridgeKitToB/Core
+    - OneKit/ByteDanceKit
+    - OneKit/Reachability
+  - BDXBridgeKitToB/Methods/Log (1.0.11):
+    - BDXBridgeKitToB/Core
+  - BDXBridgeKitToB/Methods/Media (1.0.11):
+    - BDXBridgeKitToB/Core
+    - OneKit/BaseKit
+    - OneKit/Reachability
+    - TTNetworkManager
+  - BDXBridgeKitToB/Methods/Network (1.0.11):
+    - BDXBridgeKitToB/Core
+    - OneKit/Reachability
+    - TTNetworkManager
+  - BDXBridgeKitToB/Methods/Open (1.0.11):
+    - BDXBridgeKitToB/Core
+    - OneKit/BaseKit
+    - QRCodeReaderViewController (= 4.0.2)
+  - BDXBridgeKitToB/Methods/Route (1.0.11):
+    - BDXBridgeKitToB/Core
+  - BDXBridgeKitToB/Methods/ScreenShot (1.0.11):
+    - BDXBridgeKitToB/Core
+    - OneKit/Screenshot
+  - BDXBridgeKitToB/Methods/Storage (1.0.11):
+    - BDXBridgeKitToB/Core
+  - BDXBridgeKitToB/Methods/System (1.0.11):
+    - BDXBridgeKitToB/Core
+    - BDXBridgeKitToB/Methods/Event
+    - OneKit/BaseKit
+  - BDXBridgeKitToB/Methods/UI (1.0.11):
+    - BDXBridgeKitToB/Core
+    - OneKit/BaseKit
   - Flutter (1.0.0)
+  - Godzippa (2.1.1)
+  - JSONModel (1.8.0)
+  - libwebp (1.2.1):
+    - libwebp/demux (= 1.2.1)
+    - libwebp/mux (= 1.2.1)
+    - libwebp/webp (= 1.2.1)
+  - libwebp/demux (1.2.1):
+    - libwebp/webp
+  - libwebp/mux (1.2.1):
+    - libwebp/demux
+  - libwebp/webp (1.2.1)
+  - lottie-ios (2.5.3)
+  - mars_gecko_ios/Core (2.0.13):
+    - OneKit
+    - SSZipArchive
+  - OKJSBridgeToB (1.0.15):
+    - OKJSBridgeToB/JSBridge (= 1.0.15)
+  - OKJSBridgeToB/JSBridge (1.0.15):
+    - BDWebCoreToB
+    - OneKit/BaseKit
+    - OneKit/MARS/Auth
+    - TTNetworkManager
+  - OneKit (1.1.36):
+    - OneKit/BaseKit (= 1.1.36)
+    - OneKit/MARS/Auth (= 1.1.36)
+    - OneKit/Screenshot (= 1.1.36)
+  - OneKit/BaseKit (1.1.36)
+  - OneKit/BDMantle (1.1.36)
+  - OneKit/boringssl (1.1.36)
+  - OneKit/ByteDanceKit (1.1.36):
+    - OneKit/ByteDanceKit/Foundation (= 1.1.36)
+    - OneKit/ByteDanceKit/UIKit (= 1.1.36)
+  - OneKit/ByteDanceKit/Foundation (1.1.36)
+  - OneKit/ByteDanceKit/UIKit (1.1.36):
+    - OneKit/ByteDanceKit/Foundation
+  - OneKit/Database (1.1.36):
+    - OneKit/Service
+  - OneKit/Defaults (1.1.36):
+    - OneKit/BaseKit
+  - OneKit/MARS/Auth (1.1.36):
+    - OneKit/BaseKit
+    - OneKit/StartUp
+  - OneKit/Reachability (1.1.36):
+    - OneKit/Service
+  - OneKit/Screenshot (1.1.36)
+  - OneKit/Service (1.1.36)
+  - OneKit/StartUp (1.1.36):
+    - OneKit/BaseKit
+    - OneKit/Reachability
+    - OneKit/Service
+  - QRCodeReaderViewController (4.0.2)
+  - RangersAPM/Above (2.4.6)
+  - RangersAPM/CN (2.4.6):
+    - RangersAPM/Core
+    - RangersAPM/Public
+  - RangersAPM/Core (2.4.6):
+    - OneKit/BaseKit (>= 1.1.19)
+  - RangersAPM/Crash (2.4.6):
+    - RangersAPM/Core
+    - RangersAPM/HMD
+    - RangersAPM/Public
+  - RangersAPM/EventMonitor (2.4.6):
+    - RangersAPM/Core
+    - RangersAPM/HMD
+    - RangersAPM/Public
+  - RangersAPM/HMD (2.4.6):
+    - OneKit/Database (>= 1.1.19)
+    - RangersAPM/Core
+  - RangersAPM/Hybrid (2.4.6):
+    - RangersAPM/Core
+    - RangersAPM/HMD
+    - RangersAPM/Public
+  - RangersAPM/LAG (2.4.6):
+    - RangersAPM/Core
+    - RangersAPM/HMD
+    - RangersAPM/Public
+  - RangersAPM/MemoryGraph (2.4.6):
+    - RangersAPM/Core
+    - RangersAPM/HMD
+    - RangersAPM/Public
+    - RangersAPM/Zip
+  - RangersAPM/Monitors (2.4.6):
+    - RangersAPM/UITrackers
+  - RangersAPM/Network (2.4.6):
+    - RangersAPM/Core
+    - RangersAPM/HMD
+    - RangersAPM/Public
+  - RangersAPM/OOM (2.4.6):
+    - RangersAPM/Core
+    - RangersAPM/Crash
+    - RangersAPM/HMD
+    - RangersAPM/Public
+    - RangersAPM/WatchDog
+  - RangersAPM/Public (2.4.6):
+    - RangersAPM/Above
+    - RangersAPM/Core
+    - RangersAPM/Zyone
+  - RangersAPM/UITrackers (2.4.6):
+    - RangersAPM/Core
+    - RangersAPM/HMD
+    - RangersAPM/Public
+  - RangersAPM/UserException (2.4.6):
+    - RangersAPM/Core
+    - RangersAPM/HMD
+    - RangersAPM/Public
+  - RangersAPM/WatchDog (2.4.6):
+    - RangersAPM/Core
+    - RangersAPM/HMD
+    - RangersAPM/Public
+  - RangersAPM/Zip (2.4.6)
+  - RangersAPM/Zyone (2.4.6)
+  - RangersAppLog/Core (6.5.0):
+    - OneKit/BaseKit
+    - OneKit/StartUp
+  - RangersAppLog/Host/CN (6.5.0):
+    - RangersAppLog/Core
+  - RangersAppLog/Log (6.5.0):
+    - RangersAppLog/Core
+  - RangersAppLog/OneKit (6.5.0):
+    - OneKit/Service
+    - OneKit/StartUp
+    - RangersAppLog/Core
+  - RangersAppLog/Picker (6.5.0):
+    - RangersAppLog/Log
+    - RangersAppLog/UITracker
+  - RangersAppLog/UITracker (6.5.0):
+    - RangersAppLog/Core
+  - RangersAppLog/Unique (6.5.0):
+    - RangersAppLog/Core
+  - RSSwizzle (0.1.0)
+  - SSZipArchive (2.4.2)
+  - TTNetworkManager (5.0.29.26):
+    - Godzippa
+    - OneKit/BaseKit
+    - OneKit/boringssl
+    - OneKit/StartUp
+  - VEAppUpdateHelper/VEUpdateHelper (1.0.18):
+    - JSONModel
+    - OneKit/ByteDanceKit
+    - OneKit/MARS/Auth
+    - OneKit/Reachability
+    - OneKit/StartUp
+  - VEAppUpdateHelper/VEUpdateView (1.0.18):
+    - lottie-ios (= 2.5.3)
+    - OneKit/ByteDanceKit/Foundation
+    - OneKit/ByteDanceKit/UIKit
+    - SSZipArchive
+    - VEAppUpdateHelper/VEUpdateHelper
+  - VEH5Kit (1.0.21):
+    - mars_gecko_ios/Core
+    - OneKit/StartUp
+    - VEH5Kit/Core (= 1.0.21)
+    - VEH5Kit/JSBridge (= 1.0.21)
+    - VEH5Kit/OneKit (= 1.0.21)
+    - VEH5Kit/WebView (= 1.0.21)
+  - VEH5Kit/Core (1.0.21):
+    - mars_gecko_ios/Core
+    - OneKit/StartUp
+  - VEH5Kit/JSBridge (1.0.21):
+    - BDXBridgeKitToB
+    - mars_gecko_ios/Core
+    - OneKit/StartUp
+  - VEH5Kit/OneKit (1.0.21):
+    - mars_gecko_ios/Core
+    - OneKit/StartUp
+  - VEH5Kit/WebView (1.0.21):
+    - BDH5WebView/Core
+    - BDWebKitToB/Offline (>= 0.0.1)
+    - mars_gecko_ios/Core
+    - OneKit/Service
+    - OneKit/StartUp
+  - YYCache (1.0.4)
 
 DEPENDENCIES:
+  - BDHotfix
   - Flutter (from `Flutter`)
+  - OneKit/BaseKit
+  - OneKit/Database
+  - OneKit/Defaults
+  - OneKit/MARS/Auth
+  - OneKit/Reachability
+  - OneKit/Screenshot
+  - OneKit/Service
+  - OneKit/StartUp
+  - RangersAPM/CN (>= 2.0.0)
+  - RangersAPM/Crash (>= 2.0.0)
+  - RangersAPM/EventMonitor (>= 2.0.0)
+  - RangersAPM/Hybrid (>= 2.0.0)
+  - RangersAPM/LAG (>= 2.0.0)
+  - RangersAPM/MemoryGraph (>= 2.0.0)
+  - RangersAPM/Monitors (>= 2.0.0)
+  - RangersAPM/Network (>= 2.0.0)
+  - RangersAPM/OOM (>= 2.0.0)
+  - RangersAPM/UITrackers (>= 2.0.0)
+  - RangersAPM/UserException (>= 2.0.0)
+  - RangersAPM/WatchDog (>= 2.0.0)
+  - RangersAppLog/Core
+  - RangersAppLog/Host/CN
+  - RangersAppLog/Log
+  - RangersAppLog/OneKit
+  - RangersAppLog/Picker
+  - RangersAppLog/UITracker
+  - RangersAppLog/Unique
+  - TTNetworkManager
+  - VEAppUpdateHelper/VEUpdateHelper
+  - VEAppUpdateHelper/VEUpdateView
+  - VEH5Kit
+
+SPEC REPOS:
+  https://github.com/volcengine/volcengine-specs.git:
+    - BDH5WebView
+    - BDHotfix
+    - BDPreloadSDKToB
+    - BDWebCoreToB
+    - BDWebKitToB
+    - BDXBridgeKitToB
+    - mars_gecko_ios
+    - OKJSBridgeToB
+    - OneKit
+    - RangersAPM
+    - RangersAppLog
+    - TTNetworkManager
+    - VEAppUpdateHelper
+    - VEH5Kit
+  trunk:
+    - Godzippa
+    - JSONModel
+    - libwebp
+    - lottie-ios
+    - QRCodeReaderViewController
+    - RSSwizzle
+    - SSZipArchive
+    - YYCache
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
 
 SPEC CHECKSUMS:
+  BDH5WebView: d2173ebec14b833d069139f2310634e34007d378
+  BDHotfix: fd33b523786c77e74fe6e4c6f6b5269765e5ddc1
+  BDPreloadSDKToB: 4cb55d6f0b4b85256885a612c96a1ca7d5b670ea
+  BDWebCoreToB: babeb3db2aa4921bd45388ab0e1ada650933bc08
+  BDWebKitToB: 3eaea624d0b5d6de639d6bd3a6e8d1a87ea13fdf
+  BDXBridgeKitToB: 6f6a3ea92201a358c582eaf301e96bb404438f8a
   Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  Godzippa: f438af100364a775ef0707d29ab152c356375fbf
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  libwebp: 98a37e597e40bfdb4c911fc98f2c53d0b12d05fc
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  mars_gecko_ios: 8a8fdec5259edf43c66b7e8ff3e71a6aa8f81c80
+  OKJSBridgeToB: 9d319fe42e56394f147bc721eee12e6d8cce5142
+  OneKit: c0cbb1d6e06a4ce1e910d97c5d88ee5b3aaa0620
+  QRCodeReaderViewController: e8f27d035b3e72b1d4b1c61ff66458287e3be0ff
+  RangersAPM: 2b2aa2977870f27a8c71ba810d5c1e03ae3b2c3c
+  RangersAppLog: 936306b79cab05762f8374977cbd57e18ecaef19
+  RSSwizzle: d561958f595028bfcef98c7d55c318b3878a61c6
+  SSZipArchive: e7b4f3d9e780c2acc1764cd88fbf2de28f26e5b2
+  TTNetworkManager: 3fcd8950e31e1920a06974606fdd02d1f514bb1e
+  VEAppUpdateHelper: 9d1f120ba0b1598c9dd2c095c3ebece7ff553625
+  VEH5Kit: 00326ade00953e4bc7028c78d578ee0eea6b6190
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 3c0d9c75ef5b5d0d3820340e93d78c1a18ed86e3
+PODFILE CHECKSUM: 18380ada5adbb57493222f34a9d8263cb7ad15d0
 
 COCOAPODS: 1.8.4
