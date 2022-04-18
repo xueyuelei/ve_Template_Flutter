@@ -1,0 +1,14 @@
+{
+  "project_info": {
+    "app_id": "716328523",
+    "privacy_mode": false,
+    "ak": "f5d7e2532cc9ad16bc2a41222d76f269",
+    "sk": "5c5b44c7ff5afb0f881e00bf5d88a886"
+  },
+  "services": {
+    "update": {
+      "host": "https://release-api.vemarsdev.com"
+    }
+  },
+  "version": 1
+}

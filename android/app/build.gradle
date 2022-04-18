@@ -1,3 +1,5 @@
+apply plugin: 'com.volcengine.onekit.plugin'
+
 def localProperties = new Properties()
 def localPropertiesFile = rootProject.file('local.properties')
 if (localPropertiesFile.exists()) {
@@ -55,6 +57,7 @@ flutter {
 }
 
 dependencies {
+    implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.volcengine.mars:utility:0.0.1-rc.6'
     implementation "com.volcengine.services:update-impl:1.0.0-rc.28"
