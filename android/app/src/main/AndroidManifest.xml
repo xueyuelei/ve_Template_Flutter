@@ -1,7 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.flutter_app_demo_2_0_0">
    <application
-        android:label="flutter_app_demo_2_0_0"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
@@ -37,5 +36,15 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+
+       <provider
+           android:authorities="com.mars.android.update"
+           android:name="androidx.core.content.FileProvider"
+           android:grantUriPermissions="true"
+           android:exported="false" >
+           <meta-data
+               android:resource="@xml/filepaths"
+               android:name="android.support.FILE_PROVIDER_PATHS"/>
+       </provider>
     </application>
 </manifest>
