@@ -29,27 +29,6 @@ end
 require File.expand_path(File.join('packages', 'flutter_tools', 'bin', 'podhelper'), flutter_root)
 
 flutter_ios_podfile_setup
-source 'https://cdn.cocoapods.org/'
-source 'https://github.com/volcengine/volcengine-specs.git'
-
-pod 'RangersAppLog', :subspecs => [
-      'Core',
-      'Host/CN',
-      'OneKit',
-      'UITracker',
-      'Picker',
-      'Log',
-      'Unique'
-]
-pod 'VEAppUpdateHelper', :subspecs => [
-  'VEUpdateHelper',
-  'VEUpdateView'
-]
-
-#pod 'VEAppUpdateHelper', :path => '/Users/bytedance/Desktop/git/VEAppUpdateHelper/', :subspecs=>[
-#    'VEUpdateHelper',
-#    'VEUpdateView'
-#    ]
 
 target 'Runner' do
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
