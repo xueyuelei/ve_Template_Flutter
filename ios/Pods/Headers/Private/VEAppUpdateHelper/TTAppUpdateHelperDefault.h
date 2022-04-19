@@ -1,0 +1,1 @@
+../../../../../../VEAppUpdateHelper/VEAppUpdateHelper/Classes/TTUpdateView/TTAppUpdateHelperDefault.h

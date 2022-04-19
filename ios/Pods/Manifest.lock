@@ -1,0 +1,107 @@
+PODS:
+  - Flutter (1.0.0)
+  - JSONModel (1.8.0)
+  - lottie-ios (2.5.3)
+  - OneKit/BaseKit (1.3.4)
+  - OneKit/ByteDanceKit (1.3.4):
+    - OneKit/ByteDanceKit/Foundation (= 1.3.4)
+    - OneKit/ByteDanceKit/UIKit (= 1.3.4)
+  - OneKit/ByteDanceKit/Foundation (1.3.4)
+  - OneKit/ByteDanceKit/UIKit (1.3.4):
+    - OneKit/ByteDanceKit/Foundation
+  - OneKit/Database (1.3.4):
+    - OneKit/Service
+  - OneKit/MARS/Auth (1.3.4):
+    - OneKit/BaseKit
+    - OneKit/StartUp
+  - OneKit/Reachability (1.3.4):
+    - OneKit/Service
+  - OneKit/Screenshot (1.3.4)
+  - OneKit/Service (1.3.4)
+  - OneKit/StartUp (1.3.4):
+    - OneKit/BaseKit
+    - OneKit/Reachability
+    - OneKit/Service
+  - RangersAppLog/Core (6.9.0):
+    - OneKit/BaseKit
+    - OneKit/Reachability
+    - OneKit/StartUp
+  - RangersAppLog/Host/CN (6.9.0):
+    - RangersAppLog/Core
+  - RangersAppLog/Log (6.9.0):
+    - RangersAppLog/Core
+  - RangersAppLog/OneKit (6.9.0):
+    - OneKit/Service
+    - OneKit/StartUp
+    - RangersAppLog/Core
+  - RangersAppLog/Picker (6.9.0):
+    - RangersAppLog/Log
+    - RangersAppLog/UITracker
+  - RangersAppLog/UITracker (6.9.0):
+    - RangersAppLog/Core
+  - RangersAppLog/Unique (6.9.0):
+    - RangersAppLog/Core
+  - SSZipArchive (2.4.3)
+  - VEAppUpdateHelper/VEUpdateHelper (1.0.0):
+    - JSONModel
+    - OneKit/BaseKit
+    - OneKit/ByteDanceKit
+    - OneKit/Database
+    - OneKit/MARS/Auth
+    - OneKit/Reachability
+    - OneKit/Screenshot
+    - OneKit/Service
+    - OneKit/StartUp
+  - VEAppUpdateHelper/VEUpdateView (1.0.0):
+    - lottie-ios (= 2.5.3)
+    - OneKit/BaseKit
+    - OneKit/ByteDanceKit/Foundation
+    - OneKit/ByteDanceKit/UIKit
+    - OneKit/Database
+    - OneKit/MARS/Auth
+    - OneKit/Reachability
+    - OneKit/Screenshot
+    - OneKit/Service
+    - OneKit/StartUp
+    - SSZipArchive
+    - VEAppUpdateHelper/VEUpdateHelper
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - RangersAppLog/Core
+  - RangersAppLog/Host/CN
+  - RangersAppLog/Log
+  - RangersAppLog/OneKit
+  - RangersAppLog/Picker
+  - RangersAppLog/UITracker
+  - RangersAppLog/Unique
+  - VEAppUpdateHelper/VEUpdateHelper (from `/Users/bytedance/Desktop/git/VEAppUpdateHelper/`)
+  - VEAppUpdateHelper/VEUpdateView (from `/Users/bytedance/Desktop/git/VEAppUpdateHelper/`)
+
+SPEC REPOS:
+  https://github.com/volcengine/volcengine-specs.git:
+    - OneKit
+    - RangersAppLog
+  trunk:
+    - JSONModel
+    - lottie-ios
+    - SSZipArchive
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  VEAppUpdateHelper:
+    :path: "/Users/bytedance/Desktop/git/VEAppUpdateHelper/"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  OneKit: ffdd57b34d05c497b0fa1fc80a7caf79bea92cf6
+  RangersAppLog: 562b91d0e2ccdd7ca2d855b89673b6a65db28c05
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+  VEAppUpdateHelper: e4c2034df6ad7158198916a47ece5dea2760aab5
+
+PODFILE CHECKSUM: cd285e6c7ecf5ae466f85c3d9637efb669cce31d
+
+COCOAPODS: 1.8.4

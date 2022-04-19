@@ -1,0 +1,1 @@
+../../../RangersAppLog/BDAutoTracker/Classes/UITracker/Header/UIView+TrackInfo.h

@@ -1,0 +1,98 @@
+{
+  "name": "VEAppUpdateHelper",
+  "version": "1.0.0",
+  "summary": "TF包引导升级",
+  "homepage": "https://github.com/volcengine/volcengine-specs",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dengjinan": "dengjinan@bytedance.com"
+  },
+  "source": {
+    "git": "git@code.byted.org:mars/VEAppUpdateHelper.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": "Foundation",
+  "static_framework": true,
+  "default_subspecs": [
+    "VEUpdateHelper",
+    "VEUpdateView"
+  ],
+  "dependencies": {
+    "OneKit/BaseKit": [
+
+    ],
+    "OneKit/Database": [
+
+    ],
+    "OneKit/MARS/Auth": [
+
+    ],
+    "OneKit/Reachability": [
+
+    ],
+    "OneKit/Screenshot": [
+
+    ],
+    "OneKit/Service": [
+
+    ],
+    "OneKit/StartUp": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "VEUpdateHelper",
+      "source_files": "VEAppUpdateHelper/Classes/TTUpdateHelper/*.{h,m}",
+      "dependencies": {
+        "JSONModel": [
+
+        ],
+        "OneKit/ByteDanceKit": [
+
+        ],
+        "OneKit/StartUp": [
+
+        ],
+        "OneKit/MARS/Auth": [
+
+        ],
+        "OneKit/Reachability": [
+
+        ]
+      }
+    },
+    {
+      "name": "VEUpdateView",
+      "source_files": "VEAppUpdateHelper/Classes/TTUpdateView/*.{h,m}",
+      "resource_bundles": {
+        "TTUpdateView": [
+          "VEAppUpdateHelper/Classes/TTUpdateView/Assets/*"
+        ]
+      },
+      "dependencies": {
+        "VEAppUpdateHelper/VEUpdateHelper": [
+
+        ],
+        "OneKit/ByteDanceKit/Foundation": [
+
+        ],
+        "OneKit/ByteDanceKit/UIKit": [
+
+        ],
+        "lottie-ios": [
+          "2.5.3"
+        ],
+        "SSZipArchive": [
+
+        ]
+      }
+    }
+  ]
+}
