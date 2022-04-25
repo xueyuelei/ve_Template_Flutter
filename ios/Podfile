@@ -5,7 +5,7 @@
 ENV['COCOAPODS_DISABLE_STATS'] = 'true'
 
 gem 'cocoapods', '1.8.4'
-
+use_frameworks!
 
 project 'Runner', {
   'Debug' => :debug,

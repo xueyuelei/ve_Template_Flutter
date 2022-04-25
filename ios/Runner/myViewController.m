@@ -7,6 +7,7 @@
 
 #import "myViewController.h"
 #import <VEAppUpdateHelper/TTAppUpdateHelperDefault.h>
+#import <OneKit/OneKitApp.h>
 #import <OneKit/OKServiceCenter.h>
 #import <OneKit/OKApplicationInfo.h>
 #import <OneKit/OKServices.h>
@@ -22,8 +23,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+
 - (IBAction)buttonClicked:(id)sender {
     [self update];
+    [self.updateHelper startCheckVersion];
 }
 
 - (void)update {
@@ -32,10 +35,11 @@
         OKApplicationInfo *info = [OKApplicationInfo sharedInstance];
         TTAppUpdateHelperDefault *defaultHelper = [[TTAppUpdateHelperDefault alloc] initWithDeviceID:deviceService.deviceID
                                                                                                  aid:info.appID delegate:self];
+        
         self.updateHelper = defaultHelper;
         self.updateHelper.callType = @(0);
         self.updateHelper.city = @"Shanghai";
-        [defaultHelper startCheckVersion];
+        
     }
 }
 

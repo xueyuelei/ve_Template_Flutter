@@ -1,5 +1,6 @@
 import UIKit
 import Flutter
+import OneKit
 
 @UIApplicationMain
 @objc class AppDelegate: FlutterAppDelegate {
@@ -8,6 +9,7 @@ import Flutter
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
     GeneratedPluginRegistrant.register(with: self)
+      OneKitApp.start(launchOptions: launchOptions)
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
 }
